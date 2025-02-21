@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Documant</title>
+</head>
+<body>
+  <h1>Informasi Pengguna</h1>
+
+  <script>
+    const nama = "Hamzah"; 
+    const umur = 18; 
+    const mahasiswa = true; 
+    const alamat = null; 
+    const hobi = ["Membaca", "Bersepeda", "Berenang"]; 
+    const pekerjaan = "Pengembang"; 
+    const pengalaman = 5; 
+
+    console.log("Nama: " + nama);
+    console.log("Umur: " + umur);
+    console.log("Mahasiswa: " + mahasiswa);
+    console.log("Alamat: " + alamat);
+    console.log("Hobi: " + hobi);
+    console.log("Pekerjaan: " + pekerjaan);
+    console.log("Pengalaman: " + pengalaman + " tahun");
+
+    alert("Nama: " + nama + "\nUmur: " + umur + "\nMahasiswa: " + mahasiswa + "\nAlamat: " + alamat + "\nHobi: " + hobi + "\nPekerjaan: " + pekerjaan + "\nPengalaman: " + pengalaman + " tahun");
+
+    document.write("<ul>");
+    document.write("<li><b>Nama:</b> " + nama + "</li>");
+    document.write("<li><b>Umur:</b> " + umur + "</li>");
+    document.write("<li><b>Mahasiswa:</b> " + mahasiswa + "</li>");
+    document.write("<li><b>Alamat:</b> " + alamat + "</li>");
+    document.write("<li><b>Hobi:</b> " + hobi.join(", ") + "</li>");
+    document.write("<li><b>Pekerjaan:</b> " + pekerjaan + "</li>");
+    document.write("<li><b>Pengalaman:</b> " + pengalaman + " tahun</li>");
+    document.write("</ul>");
+  </script>
+</body>
+</html>
